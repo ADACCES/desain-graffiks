@@ -1,0 +1,11 @@
+document.querySelectorAll('.category-item').forEach(item => {
+    item.addEventListener('mouseover', () => {
+        item.style.backgroundColor = '#FF5722';
+        item.style.color = 'white';
+    });
+
+    item.addEventListener('mouseout', () => {
+        item.style.backgroundColor = 'white';
+        item.style.color = '#333';
+    });
+});
